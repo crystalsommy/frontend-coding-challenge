@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ .header-section{
+    background-image: url("chicago.jpg");
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 80vh;
+}
+.p0{
+    color: white;
+    text-align: center;
+}
+ nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}  
+li{
+    font-size: 20px;
+    padding-top: 5px;
+    color: aliceblue;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.lk{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.search{
+    padding-left: 60%;
+}
+.list{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navlist{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sect-1{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 80px;
+}
+.i{
+    color: gray;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.p2{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.p3{
+    text-align: left;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-top: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.sect-2{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+.flex-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    margin: 80px 150px;
+    row-gap: 200px;
+}
+.p4{
+    color: gray;
+}
+.image{
+    width: 40vh;
+    text-align: left;
+    height: 50vh;
+}
+.sect-text{
+    padding-top: 30px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 14px;
+    font-size: 13px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid gray;
+    background: gray;
+    transition: 1s;   
+}
+.sect-2{
+    padding-bottom: 70px;
+}
+.contact{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10vh;
+    padding-bottom: 50px;
+}
+.flex-3{
+    display: flex;
+    text-align: left;
+    margin-left: 40vh;
+    justify-content: space-between;
+    padding-top: 20vh;
+    margin-right: 40vh;
+}
+.div{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.dive{
+    display: flex;
+}
+
+@media(max-width: 930px){
+    .flex{
+        display: block;
+    }
+    .flex-1{
+        display: block;
+    }
+    .p3{
+        text-align: left;
+        padding-left: 10vh;
+        padding-right: 20vh;
+        padding-top: 30px;
+    }
+}
+@media(max-width: 775px){
+    .sect-1{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .p3{
+        text-align: left;
+        padding-left: 10vh;
+        padding-right: 10vh;
+        padding-top: 30px;
+    }
+}
